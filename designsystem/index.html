@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Prata&display=swap" rel="stylesheet">
+
+    <title>Design System</title>
+</head>
+<body>
+
+    <header>
+
+        <aside class="colorpalette">
+            <div class="firstcolor firstround"></div>
+            <div class="secondcolor"></div>
+            <div class="thirdcolor"></div>
+            <div class="color4"></div>
+            <div class="color5 lastround"></div>
+        </aside>
+
+        <nav class="secondary">
+            <ul>
+                <li>Sunset Design System</li>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#"><i class="fab fa-github"></i> Github Repo</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="" width="200px">
+            <div>
+                <h1>Welcome to Sunset!</h1>
+                <p>Sunset design system is a personal project to practice html & css. This documentation is inspired by various design systems of popular companies like Shopify, Mailchimp and Atlassian.</p>
+            </div>
+        </section>
+
+    </header>
+    
+    <main>
+
+        <nav class="primary">
+            <ul>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#logo">Logo</a></li>
+            </ul>
+        </nav>
+
+        <section class="content">
+
+            <article id="colors">
+                <h2>Colors</h2>
+                <div class="divflex">
+                    <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="" width="200px">
+                    <p>The color palette is genereated from a photograph of sunset. This beautiful photograph is taken by Jordan Wozniak.  <br><a href="https://unsplash.com/photos/xP_AGmeEa6s" target="_blank">Click here to view full-size on Unsplash.com.</a></p>
+                </div>
+
+                <div class="colors firstcolor"> Primary Color #0e878f </div>
+                <div class="colors secondcolor"> Secondary Color #ba5b2f </div>
+                <div class="colors thirdcolor"> Tertiary Color #523a30 </div>
+                <div class="colors color4"> Other Color #7f4a42 </div>
+                <div class="colors color5"> Other Color #152932 </div>
+            </article>
+            <hr>
+
+            <article id="typography">
+                <h2>Typography</h2>
+
+                <p class="typography-primary">This is Abel. Our headings font.</p>
+
+                <p>Abel is a modern interpretation of the condensed flat-sided sans serif. Originally used for newspaper headlines and posters, this style can also be used for text on the web. Its angled terminals and spiked stems give it enough style to be unique at display sizes, while its mono-weight still works well at smaller text sizes.</p>
+                <p>Available at Google Fonts: <a href="https://fonts.google.com/specimen/Abel"> https://fonts.google.com/specimen/Abel </a></p>
+
+                <p class="typography-secondary">This is Lato. Our paragraph font.</p>
+
+                <p>Lato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google.</p>
+                
+                <p>Available at Google Fonts: <a href="https://fonts.google.com/specimen/Lato"> https://fonts.google.com/specimen/Lato </a></p>         
+            </article>
+            <hr>
+
+            <article id="buttons">
+                    <h2>Buttons</h2>
+
+                    <h3>Call to Actions</h3>
+                    <button class="btn btn-primary">Primary Action</button> <br><br>
+                    <button class="btn btn-secondary">Secondary Action</button>
+
+                    <h3>Navigation</h3>
+                    <button class="btn btn-arrow">&laquo;</button>
+
+                    <button class="btn btn-arrow">&raquo;</button>
+            </article>
+
+            <hr>
+
+            <article id="form">
+                    <h2>Form</h2>
+                    <p>Shopify uses colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with our product easier and more predictable for merchants.</p>
+            </article>
+
+            <article id="tables">
+                    <h2>Tables</h2>
+                    <p>Shopify uses colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with our product easier and more predictable for merchants.</p>
+            </article>
+
+            <article id="logo">
+                    <h2>Logo</h2>
+                    <p>Shopify uses colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with our product easier and more predictable for merchants.</p>
+            </article>
+
+            
+
+        </section>
+
+    </main>
+    
+    <footer>Made by Suman Shrestha for front end development training at MCC.</footer>
+    
+    
+</body>
+</html>
