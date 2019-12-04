@@ -148,3 +148,11 @@ nav ul li a:hover {
 .card a span {
    display: none;
 }
+
+/* SUBLINKS */
+
+.sublinks {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
