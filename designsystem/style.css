@@ -348,4 +348,77 @@ input:focus, textarea:focus {
 	margin-top:22px;
 }
 
+/* Table */
+table {
+    border: 1px solid var(--color-primary-shade);
+    width: 100%;
+    padding: 40px;
+}
 
+tr {
+    border-bottom: 1px solid var(--color-primary-shade) ;
+}
+
+th, td {
+    border-right: 1px solid var(--color-primary-shade) ;
+}
+
+th {
+    color: var(--color-secondary)
+}
+
+thead th:nth-child(1) {
+    10%
+}
+thead th:nth-child(2) {
+    30%
+}
+thead th:nth-child(3) {
+    30%
+}
+thead th:nth-child(4) {
+    30%
+}
+
+th,td {
+    padding: 10px;
+}
+
+thead th,tbody th {
+    text-align: left;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+
+/* logo */
+
+.logo-img {
+    width: 350px;
+    padding: 40px;
+    background: white;
+}
+
+.logo-main {
+    box-shadow: none;
+    width: 175px;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.box1 {
+    position: relative;
+    top:-400px;
+}
+
+.box2 {
+    
+    position: relative;
+    top:100px;
+    left: 100px;
+    
+}
