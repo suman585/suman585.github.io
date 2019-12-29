@@ -12,8 +12,9 @@
     <title>Design System</title>
 </head>
 <body>
-
-    <header>
+        <a href="#" class="float"><i class="fas fa-arrow-up"></i></a>
+    
+    <header>    
 
         <aside class="colorpalette">
             <div class="firstcolor firstround"></div>
@@ -26,9 +27,9 @@
         <nav class="secondary">
             <ul>
                 <li>Sunset Design System</li>
-                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="https://suman585.github.io/designsystem/"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
-                <li><a href="#"><i class="fab fa-github"></i> Github Repo</a></li>
+                <li><a href="https://github.com/suman585/suman585.github.io/tree/master/designsystem" target="_blank"><i class="fab fa-github"></i> Github Repo</a></li>
             </ul>
         </nav>
 
@@ -36,7 +37,10 @@
             <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt="" width="200px">
             <div>
                 <h1>Welcome to Sunset!</h1>
-                <p>Sunset design system is a personal project to practice html & css. This documentation is inspired by various design systems of popular companies like Shopify, Mailchimp and Atlassian.</p>
+                <p>Sunset design system is a personal project to practice html & css. This documentation is inspired by various design systems of popular companies like 
+                    <a href="https://polaris.shopify.com/" class="link-secondary" target="_blank">Shopify</a>, 
+                    <a href="https://ux.mailchimp.com/patterns/color" class="link-secondary" target="_blank">Mailchimp</a> and 
+                    <a href="https://www.atlassian.design/" class="link-secondary" target="_blank">Atlassian</a>.</p>
             </div>
         </section>
 
@@ -105,8 +109,36 @@
 
             <article id="form">
                     <h2>Form</h2>
-                    <p>Shopify uses colors purposefully to communicate how things function in the interface. This helps us create visual patterns that can make interacting with our product easier and more predictable for merchants.</p>
+
+                    <form action="">
+
+                        <label for="name">Full name</label>
+                        <input type="text" >
+
+                        <label for="name">Phone number</label>
+                        <input type="text" >
+
+                        <label for="name">Email address</label>
+                        <input type="text" >
+
+                        <label for="name">Topic</label>
+                        <select name="" id="">
+                                <option value="">Select below</option>
+                                <option value="">Customer support</option>
+                                <option value="">Technical</option>
+                                <option valuef="">Billing</option>
+                        </select>
+
+                        <label for="name">Message</label>
+                        <textarea type="text" rows="5"></textarea>
+
+                        <button class="btn btn-primary">Submit</button>
+
+                    </form>
+                    
             </article>
+
+            <hr>
 
             <article id="tables">
                     <h2>Tables</h2>
